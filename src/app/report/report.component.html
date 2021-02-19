@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="second-nav">
+        <mat-toolbar class="bg-white">
+            <mat-toolbar-row fxLayoutAlign="space-between center" class="pl-0 pr-0 mb-3">
+                <label mat-label class="title">
+                    Report
+                </label>
+                <button class="cancel" (click)="goBack()"> Back</button>
+            </mat-toolbar-row>
+        </mat-toolbar>
+    </div>
+    <div>
+        <label class="crash-title">
+            Crash Analysis Report </label>
+        <div class="panel-body">
+            <!-- <app-analysis-report></app-analysis-report> -->
+            <div class="crash-report">
+                {{ fileContent }}
+            </div>
+        </div>
+
+        <br>
+        <div class="action-btn">
+            &nbsp;&nbsp;
+            <button class="download-btn" [disabled]="!isLoadingData">
+                <a [href]="fileUrl" download="crash-portal.txt"></a>
+                <span class="download-text" (click)="download()">
+                    Download
+                </span>
+            </button>
+        </div>
+    </div>
+</div>

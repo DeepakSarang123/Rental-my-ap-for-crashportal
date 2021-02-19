@@ -1,0 +1,7 @@
+{
+    "keycloakURL": "https://kc.dev.rdk.yo-digital.com/auth",
+    "realm": "RDKLogin",
+    "clientId": "crashPortal",
+    "crashPortalURL": " http://54.93.57.177:8080/v1/crashReports",
+    "crashReportAPI": "http://54.93.57.177:8080/v1/crashReport"
+}

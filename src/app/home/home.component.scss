@@ -1,0 +1,215 @@
+.title{
+    height: 41px;
+    width: 100%;
+    color: #000000;
+    font-family: 'TeleNeoRegular',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 36px !important;
+    font-weight: bold !important;
+    letter-spacing: 1.54px;
+    line-height: 41px;
+    text-align:start;
+    margin-top:15px;
+}
+.second-nav{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.bg-white {
+    background-color: #fff;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: 400;
+  }
+  .mat-paginator-range-label {
+    display: none;
+}
+  
+  .heading-right {
+    display: flex;
+    justify-self: center;
+    div {
+      padding: 0 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      form {
+        margin-top: 15px;
+        input.form-control {
+          background-color: #eee;
+          border-left: transparent !important;
+          padding: 6px;
+          border: 1px solid #aaa;
+        }
+      }
+      .search {
+        font-size: 12px;
+        .mat-form-field-flex {
+          background-color: #ccc !important;
+        }
+      }
+    }
+    div:last-child {
+        padding-right: 0;
+      }
+    }
+    
+.example-container {
+    display: table;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    .actions {
+      justify-content: flex-end;
+      span.material-icons {
+        cursor: pointer;
+        color: #888;
+        margin-right: 8px;
+      }
+    }
+  }
+  
+  .tableheader {
+    background-color: #e6e6e6;
+  }
+  
+  .tablefooter {
+    margin-bottom: 20px;
+    
+  }
+  
+  .btn:focus {
+    outline: none !important;
+    box-shadow: none;
+  }
+  mat-table {
+  
+    height: 320px;
+  
+    overflow-y: auto;
+  
+  }
+  .example-header {
+    
+    padding: 8px 24px 0;
+    box-sizing: border-box;
+  height: 37px;
+  width: 270px;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  background-color: #EDEDED;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+    .mat-form-field-label {
+        left:25px ;
+    }
+    
+  }
+  
+  .mat-table {
+    overflow: auto;
+    max-height: 500px;
+  }
+  
+  .searchBtn{
+    background-position:left top; 
+    padding-left:2px;
+
+  }
+
+ 
+
+  .mat-column-imageName{
+    width:10% !important;
+    word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 28% !important;
+  
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.mat-column-dateOfPost{
+  width:10% !important;
+  word-wrap: break-word !important;
+white-space: unset !important;
+flex: 0 0 21% !important;
+
+overflow-wrap: break-word;
+word-wrap: break-word;
+
+word-break: break-word;
+
+-ms-hyphens: auto;
+-moz-hyphens: auto;
+-webkit-hyphens: auto;
+hyphens: auto;
+}
+.mat-column-macId{
+  width:10% !important;
+  word-wrap: break-word !important;
+white-space: unset !important;
+flex: 0 0 16% !important;
+
+overflow-wrap: break-word;
+word-wrap: break-word;
+
+word-break: break-word;
+
+-ms-hyphens: auto;
+-moz-hyphens: auto;
+-webkit-hyphens: auto;
+hyphens: auto;
+}
+.mat-column-versionId{
+  word-wrap: break-word !important;
+white-space: unset !important;
+flex: 0 0 10% !important;
+width: 25% !important;
+overflow-wrap: break-word;
+word-wrap: break-word;
+
+word-break: break-word;
+
+-ms-hyphens: auto;
+-moz-hyphens: auto;
+-webkit-hyphens: auto;
+hyphens: auto;
+}
+  .mat-column-uUIDName{
+    word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 25% !important;
+  width: 25% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  padding:12px;
+  }
+  ::ng-deep .mat-form-field-underline {
+    display: none;
+  }
+  ::ng-deep .mat-header-cell, ::ng-deep .mat-cell, ::ng-deep .mat-paginator-range-label, ::ng-deep .mat-paginator-page-size-label{
+    color: #000000;
+    font-family: 'TeleNeoRegular',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.77px;
+  line-height: 21px;
+  }

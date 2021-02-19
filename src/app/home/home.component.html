@@ -1,0 +1,73 @@
+<div class="container">
+    <div class="second-nav">
+        <mat-toolbar class="bg-white">
+            <mat-toolbar-row fxLayoutAlign="space-between center" class="pl-0 pr-0 mb-3">
+                <label mat-label class="title">
+                    Crash Dump Portal
+                </label>
+                <div class="heading-right">
+                    <div class="example-header">
+                        <mat-form-field>
+                            <img class="searchBtn" src="../../assets/search_solid.svg">
+                            <input style="width:auto; padding: 5px 23px 2px 8px;" matInput (keyup)="applyFilter($event.target.value)" #input>
+                        </mat-form-field>
+                    </div>
+                </div>
+            </mat-toolbar-row>
+        </mat-toolbar>
+    </div>
+    <div>
+        <div class="example-container">
+            <mat-table [dataSource]="dataSource" matSort matSortActive="dateOfPost" matSortDirection="asc">
+
+
+                <ng-container matColumnDef="uUIDName">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header>
+                        UUID
+                    </mat-header-cell>
+                    <mat-cell *matCellDef="let row"><a routerLink='/lazy' (click)="getRecord(row)"> {{ row.uUIDName }}
+                        </a>
+                    </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="macId">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header>
+                        MAC
+                    </mat-header-cell>
+                    <mat-cell *matCellDef="let row"> {{ row.macId.slice(3) }} </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="dateOfPost">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header>
+                        Date
+                    </mat-header-cell>
+                    <mat-cell *matCellDef="let row"> {{ row.dateOfPost }} </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="imageName">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header>
+                        Image Name
+                    </mat-header-cell>
+                    <mat-cell *matCellDef="let row">
+                        {{ row.imageName }}
+                    </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="versionId">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header>
+                        Version
+                    </mat-header-cell>
+                    <mat-cell *matCellDef="let list of"> {{ list.versionId }} </mat-cell>
+                </ng-container>
+
+                <mat-header-row class="tableheader" *matHeaderRowDef="displayedColumns"></mat-header-row>
+                <mat-row *matRowDef="let row; columns: displayedColumns"> </mat-row>
+            </mat-table>
+            <div class="row" style="height:30px" fxLayoutAlign="end center">
+                <mat-paginator class="tablefooter" [pageSizeOptions]="[5, 10, 25]"></mat-paginator>
+            </div>
+        </div>
+    </div>
+
+
+</div>

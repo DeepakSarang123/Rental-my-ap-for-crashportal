@@ -1,1 +1,195 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css");
+@font-face {
+  font-family: 'TeleNeoRegular';
+  src: url("./assets/fonts/TeleNeoWeb-Regular.eot?#iefix") format("embedded-opentype"), url('./assets/fonts/TeleNeoWeb-Regular.woff2') format('woff2');
+}
+body {
+  height: 100vh;
+  font-family: 'TeleNeoRegular',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-display: block;
+  line-height: 21px;
+  letter-spacing: 0.77px;
+  color: #000;
+  overflow: hidden;
+}
+
+p {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.bg-custom {
+  background-color: #E12474 !important;
+  height:64px;
+}
+
+.navbar-text {
+  color: #fff !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+}
+
+img.logo {
+  width: 75px;
+  height: 40px;
+}
+
+.layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  margin: 60px 0 20px;
+  height: 30vh;
+  width: 300px;
+}
+
+.status {
+  width: 300px;
+}
+
+.text-success__styles {
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+.custom-file-input {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.custom-file-label {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.custom-file-label::after {
+  display: none;
+}
+
+.execute {
+  min-width: 150px;
+  text-transform: uppercase;
+  background-color: #53baf2 !important;
+  border: #53baf2 !important;
+}
+.execute:focus {
+  box-shadow: none;
+}
+
+.user-profile {
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  text-transform: capitalize;
+}
+
+.user-profile-username {
+  margin-left: 4px;
+}
+
+.result {
+  height: calc(100vh - 300px);
+  overflow-y: scroll;
+  background-color: #eee;
+  padding: 15px 15px 0 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+pre {
+  margin-bottom: 0;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// footer {
+//   position: fixed;
+//   bottom: 0;
+//   text-align: center;
+//   width: 100%;
+//   padding: 15px;
+ 
+// }
+
+.footer-body {
+  background-color: #262626;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height:84px;
+ 
+}
+.footer-left{
+  height: 15px;
+  width: 248.19px;
+  color: #B2B2B2;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.footer-right {
+  span a {
+   
+  height: 15px;
+  width: 248.19px;
+  color: #B2B2B2;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-left: 20px;
+  margin-right: 20px;;
+  }
+}
+
+.margin-left-user:before {
+  content: "";
+  height: 30px;
+  background-color: #fff;
+  width: 1px;
+  position: absolute;
+  left: -15px;
+  top: 5px;
+}
+
+.logout {
+  height: 46px;
+  color: #262626;
+  font-family: 'TeleNeoRegular',"Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-size: 20px;
+  letter-spacing: 1.03px;
+  line-height: 28px;
+}
+
+.profile-icon {
+  margin-top: -5px;
+  margin-right: 4px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

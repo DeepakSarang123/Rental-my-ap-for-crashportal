@@ -1,0 +1,71 @@
+.title{
+    height: 41px;
+    width: 100%;
+    color: #000000;
+    font-family: 'TeleNeoRegular',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 36px !important;
+    font-weight: bold !important;
+    letter-spacing: 1.54px;
+    line-height: 41px;
+    text-align:start;
+    margin-top:15px;
+}
+.panel-headers{
+    height: 59px;
+    width: 100%;
+    color: #000000;
+    font-family: 'TeleNeoRegular',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.77px;
+    line-height: 21px;
+    background-color: #EDEDED !important;
+   
+}
+.panel-body{
+    background-color: #FFFFFF;
+    padding:12px;
+}
+.version-info{
+    text-align: left;
+    display:flex;
+    flex-flow: row;
+}
+.download-btn{
+  box-sizing: border-box;
+  height: 37px;
+  width: 131px;
+  border: 1px solid #009DE0;
+  border-radius: 4px;
+  background-color: #009DE0;
+  color: #FFFFFF;
+  font-family: 'TeleNeoRegular',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.77px;
+    line-height: 21px;
+    text-align: center;
+}
+.action-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.cancel{
+    box-sizing: border-box;
+    height: 37px;
+    width: 131px;
+    border: 1px solid #B2B2B2;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-family: 'TeleNeoRegular',"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.crash-report{
+    white-space: pre;
+    overflow-y: scroll;
+    height: 300px;
+}
+.crash-title{
+    font-size:24px;
+    font-weight: bold;
+}

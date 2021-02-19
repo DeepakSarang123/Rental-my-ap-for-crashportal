@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>6F6914AB-D350-474C-9C53-AE565ADA6D27</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="67"></rect>
+        <filter x="-0.5%" y="-7.5%" width="101.0%" height="120.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.411112325 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M13.4875,0.549999986 C13.2625,0.324999985 12.925,0.324999985 12.7,0.549999986 L7,6.25000001 L1.29999998,0.549999986 C1.07499998,0.324999985 0.737499974,0.324999985 0.512499973,0.549999986 C0.287499972,0.774999987 0.287499972,1.11249999 0.512499973,1.33749999 L7,7.82500002 L13.4875,1.33749999 C13.7125,1.14999999 13.7125,0.774999987 13.4875,0.549999986 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Environments-Application-(stb)" transform="translate(-319.000000, -110.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="900"></rect>
+            <g id="13-Zoll-Breadcrumb-Shadow" transform="translate(0.000000, 84.000000)">
+                <rect id="Rectangle-Copy-6" fill="#FFFFFF" x="0" y="0" width="1440" height="67"></rect>
+                <g id="Rectangle">
+                    <use fill="white" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#E12474 " fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+            <g id="Smartphone-Breadcrumb" transform="translate(198.000000, 84.000000)">
+                <g id="Group" transform="translate(24.373905, 19.444444)">
+                    <g id="icon/navigation/collapse-down" transform="translate(99.000000, 12.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="iconcollapse-down" fill="#262626" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
